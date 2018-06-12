@@ -1,7 +1,6 @@
 # DWM10_NodeJS
 
 ## Installation
----
 - Installer NodeJs et npm sur le PC.
 - en CLI :
   - sudo npm install express-generator -g
