@@ -1,0 +1,16 @@
+<%- include('parts/header'); -%>
+
+<main>
+    <% if(typeof pokemons !== 'undefined') { %>
+        <% pokemons.forEach(function(pokemon){ %>
+            <div class="pkm-container">
+                <h2><%- pokemon.name -%></h2>
+                <p><%- pokemon.power -%></p>
+            </div>
+        <% }); %>
+    <% } else {;%>
+        <h1>Aucun pokemon !</h1>
+    <% }; %>
+</main>
+
+<%- include('parts/footer'); -%>
