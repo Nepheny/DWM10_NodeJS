@@ -9,4 +9,4 @@
 - cloner le repo.
 - Se déplacer dans le dossier du projet en CLI et faire la commande :
   - npm install
-    - npm start
+  - npm start
